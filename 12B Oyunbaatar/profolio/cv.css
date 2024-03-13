@@ -1,0 +1,124 @@
+ * {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --primary-color: #F7D089;
+    --background-color: #E9EBEC;
+    --bgcolor: #212121;
+    --text-white:#fff;
+}
+.white-theme {
+    --bgcolor:#fff;
+    --text-white:#212121;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #E9EBEC;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    background-color: var(--bgcolor);
+}
+.content {
+    padding-top: 33px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.profile {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin-top: 65px;
+}
+.pro-pic {
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    padding: 4px;
+    justify-content: center;
+    display: flex;
+}
+.pro-pic img {
+    border-radius: 50%;
+    border: 7px white solid;
+}
+.pro-info {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    color: var(--text-white);
+}
+.facts {
+    display: flex;
+    margin-top: 48px;
+    gap: 10px;
+    color: var(--text-white);
+}
+.fact {
+    width: 148px;
+    text-align: center;
+}
+.font24 {
+    font-size: 24px;
+}
+.font22 {
+    font-size: 22px;
+}
+.profile-buttons {
+    display: flex;
+    margin-top: 48px;
+    gap: 38px;
+}
+.cv {
+    background-color:#FBD144;
+    display: flex;
+    gap: 15px;
+    padding: 24px 42px;
+    border-radius: 10px;
+}
+.contact {
+    background-color: white;
+    padding: 24px 81px;
+    border-radius: 10px;
+}
+.detailInfo {
+    background-color: white;
+    border-radius: 20px;
+    padding: 15px 24px 15px 15px;
+    display: flex;
+    margin-top: 75px;
+
+}
+.Profolio {
+    background-color: #D7D7D7;
+    padding: 24px 0px;
+    width: 350px;
+    border-radius: 10px;
+    text-align: center;
+}
+.skills {
+    background-color: #ffffff;
+    padding: 24px 0px;
+    width: 350px;
+    border-radius: 10px;
+    text-align: center;
+}
+.tabs {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 757px;
+    height: 826px;
+    gap: 32px;
+    margin-top: 65px;
+}
+.ug {
+    margin-top: 70px;
+    color: var(--text-white)
+}
+#theme {
+    cursor: pointer;
+}
